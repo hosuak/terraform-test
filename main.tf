@@ -8,10 +8,10 @@ terraform {
 }
 
 # Configure the AWS Provider
-provider "aws" {
-  profile = "admin"
-  region = "ap-northeast-2"
-}
+# provider "aws" {
+#   profile = "admin"
+#   region = "ap-northeast-2"
+# }
 
 # Create a VPC
 resource "aws_vpc" "web-vpc" {
