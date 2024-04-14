@@ -5,3 +5,4 @@
 2. terraform aws resource 생성하기
     - vpc, subnet, route table, security groups
     - instance, target group, alb, listener 규칙, launch template, autoscaling group
+    
