@@ -9,7 +9,7 @@ terraform {
   backend "remote" {
     organization = "project_suah"  # 테라폼 클라우드 조직명
     workspaces {
-      name = "terraform-dev"  # 사용할 워크스페이스명
+      name = "terraform-test"  # 사용할 워크스페이스명
     }
   }
 }
